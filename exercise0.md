@@ -23,14 +23,19 @@ Created `hello_world.py`:
 print("Hello, World!")
 ```
 
-### 4. Execute Hello World
+### 4. Create Virtual Environment
 ```bash
-$ python3 hello_world.py
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ python --version
+Python 3.12.3
+```
+
+### 5. Execute Hello World
+```bash
+(venv) $ python hello_world.py
 Hello, World!
 ```
 
-## Virtual Environment Setup
-The specs mention "Virtual Environment" as OpenAI Playground or ChatGPT interface for the exercises, so no local virtual environment is needed for this project.
-
 ## Result
-Environment is ready for prompt pattern exercises with Python 3.12.3 installed and working.
+Environment is ready for prompt pattern exercises with Python 3.12.3 installed in virtual environment.
